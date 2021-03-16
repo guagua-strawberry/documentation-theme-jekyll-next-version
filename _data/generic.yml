@@ -4,60 +4,69 @@ owner: tomjohnson1492
 ## Keep this commented out content because it shows the YAML model for the sidebar.
 
 folders:
-- title: Theme documentation
+- title: Foundation
   folderitems:
-  - title: Home
+  - title: About SME UI styleguide
     url: /index.html
 
-  - title: Sample 1 really long title that will wrap
+  - title: Design Guidelines
     url: /sample1.html
 
-  - title: Sample 2 really long title that will wrap even longer
+  - title: Pattern-based Design
     url: /sample2.html
 
-  - title: Sample 3
+  - title: Navigation Paradigm
+    url: /sample3.html
+    
+  - title: Accessbility
+    url: /sample3.html
+    
+  - title: Enterprise Search
+    url: /sample3.html
+    
+    
+  - title: Personalizetion and Adaptation
+    url: /sample3.html
+    
+    
+  - title: Shell
     url: /sample3.html
 
-    subfolders:
-    - title: Second level deep
-      subfolderitems:
 
-      - title: Sublevel 1
-        url: /sublevel1.html
-
-      - title: Sublevel 2
-        url: /sublevel2.html
-
-      - title: Sublevel 3
-        url: /sublevel3.html
-
-        subsubfolders:
-        - title: Third level deep
-          subsubfolderitems:
-
-          - title: Sub-sublevel 1
-            url: /subsublevel1.html
-
-          - title: Sub-sublevel 2
-            url: /subsublevel2.html
-
-          - title: Sub-sublevel 3
-            url: /subsublevel3.html
-
-- title: Another folder level
+- title: Layouts
   folderitems:
-  - title: Home
+  - title: List Pane
     url: /index.html
 
-  - title: Thing 1
+  - title: Master-Detail
     url: /thing1.html
 
-  - title: Thing 2
-    url: /thing2.html
+ 
+- title: Floorplan
+  folderitems:
+  - title: List Pane
+    url: /index.html
 
-  - title: Thing 3
-    url: /thing3.html
+  - title: Master-Detail
+    url: /thing1.html
+    
 
+- title: Patterns
+  folderitems:
+  - title: List Pane
+    url: /index.html
+
+  - title: Master-Detail
+    url: /thing1.html
+
+
+- title: Elements
+  folderitems:
+  - title: List Pane
+    url: /index.html
+
+  - title: Master-Detail
+    url: /thing1.html
 ###########################
 
 related_resources_title: Other Resources
