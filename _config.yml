@@ -89,17 +89,13 @@ gems:
 
 
 uistring:
-    title: Jekyll Documentation theme # Displays as site title on top nav bar and on site metadata
-    description: Documentation theme for Jekyll websites  # Displays as site description meta
-    search_placeholder_global: Global Search ...
-    search_placeholder_product: Product Search ...
+    title: The BAF styleguide draft # Displays as site title on top nav bar and on site metadata
+    description: BAF styleguide test site# Displays as site description meta
+    search_placeholder_global: Search for anything...
+    search_placeholder_product: Search ...
     minitoc_title: Table of Contents
     tags_title: Tags
     github_edit_button_text: Edit me
     search_results_page_title: Search results
     search_no_results_found: No results found.
-    tag_terms:
-      product: Product
-      page: Page
-      excerpt: Excerpt
-      tag_page_intro: The following pages are tagged with
+    
