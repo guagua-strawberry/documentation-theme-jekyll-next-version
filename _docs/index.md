@@ -1,5 +1,5 @@
 ---
-title: Next version of documentation theme for Jekyll
+title: BAF Styleguide foundation
 permalink: index.html
 sidebar: generic
 
