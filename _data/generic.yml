@@ -69,12 +69,12 @@ folders:
     url: /thing1.html
 ###########################
 
-related_resources_title: Other Resources
+related_resources_title: Helpful Resources
 
 related_resources_list:
 
-- title: Jekyll
-  url: http://jekyllrb.com
+- title: Fiori
+  url: https://experience.sap.com/fiori-design/
 
-- title: Github
-  url: http://github.com
+- title: SAP Business ByDesign UI Styleguide Version 2013
+  url: https://wiki.wdf.sap.corp/wiki/pages/viewpage.action?spaceKey=UIGuidelinesByDL&title=Home
