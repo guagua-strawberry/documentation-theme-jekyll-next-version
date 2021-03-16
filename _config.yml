@@ -30,34 +30,6 @@ collections:
   tags:
     output: true
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-      topnav: topnav
-      tag_group: taglist
-  -
-    scope:
-      path: ""
-      type: docs
-    values:
-      layout: default
-      topnav: topnav
-      tag_group: taglist
-  -
-    scope:
-      path: ""
-      type: tags
-    values:
-      layout: default
-      topnav: topnav
-      sidebar: taglist
-      toc: false
-      github_button: false
-      search: false
 
 algolia:
     application_id: 'HXUBJERYYB'
