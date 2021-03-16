@@ -97,4 +97,9 @@ uistring:
     github_edit_button_text: Edit me
     search_results_page_title: Search results
     search_no_results_found: No results found.
+    tag_terms:
+      product: Product
+      page: Page
+      excerpt: Excerpt
+      tag_page_intro: The following pages are tagged with
     
