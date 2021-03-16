@@ -1,134 +1,34 @@
 ---
-title: Sample 1
+title: Design Guideline
 permalink: sample1.html
 sidebar: generic
 tags: [getting-started, formatting]
 product: Generic
 ---
 
-This is the English Sample 1 page.blah blah
+# Leverage Fiori widgets under ONE UX vision.
+SAP Fiori 3.0+ is the user experience (UX) paradigm for SAP SME software and applications.
+All product areas committed to work towards the adoption of SAP Fiori 3 as the design system that would integrate the experience of all SAP products. This decision was operationalized in a newly established product standard for UX consistency. 
+As well as a new Quartz theme, SAP Fiori 3 introduced a number of new features that facilitate the integration of all SAP products to provide one coherent and consistent user experience.
+SME Products have their historical UX paradigm and an existing customer.
+Fiori3+ defines the UX-bridge between existing SAP SME UX Concepts and functions and the SAP Fiori 3 UX Concepts and functions.
 
-```java
-public class EnhancedFor
-{
-	public static void main(String[] args)
-	{	int[] list ={1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-		int sum = sumListEnhanced(list);
-		System.out.println("Sum of elements in list: " + sum);
+# Keep the current BYD information structure with role-based supportive task flow.
+By understanding different user need and business process, the product 
+should come up with personalized solution to simplify their workflow and increase their productivity. 
 
-		System.out.println("Original List");
-		printList(list);
-		System.out.println("Calling addOne");
-		addOne(list);
-		System.out.println("List after call to addOne");
-		printList(list);
-		System.out.println("Calling addOneError");
-		addOneError(list);
-		System.out.println("List after call to addOneError. Note elements of list did not change.");
-		printList(list);
-	}
+# Provide feedback flow within user interaction.
+As stated in Jakob Nielsen's 10 general principle for interaction design, "Visibility of system status: The design should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time."
 
-	// pre: list != null
-	// post: return sum of elements
-	// uses enhanced for loop
-	public static int sumListEnhanced(int[] list)
-	{	int total = 0;
-		for(int val : list)
-		{	total += val;
-		}
-		return total;
-	}
+Our product should provide noticeable feedback to build trust within every user interaction: when user know about the current system status, they can predict the outcome of their prior interactions and determine their next move. Predictable interaction can create trust in the product as well as the brand.
 
-	// pre: list != null
-	// post: return sum of elements
-	// use traditional for loop
-	public static int sumListOld(int[] list)
-	{	int total = 0;
-		for(int i = 0; i < list.length; i++)
-		{	total += list[i];
-			System.out.println( list[i] );
-		}
-		return total;
-	}
-
-	// pre: list != null
-	// post: none.
-	// The code appears to add one to every element in the list, but does not
-	public static void addOneError(int[] list)
-	{	for(int val : list)
-		{	val = val + 1;
-		}
-	}
-
-	// pre: list != null
-	// post: adds one to every element of list
-	public static void addOne(int[] list)
-	{	for(int i = 0; i < list.length; i++)
-		{	list[i]++;
-		}
-	}
-
-	public static void printList(int[] list)
-	{	System.out.println("index, value");
-		for(int i = 0; i < list.length; i++)
-		{	System.out.println(i + ", " + list[i]);
-		}
-	}
+# A consistent, aesthetic, straightforward interface. 
+Consistent – Consistent interface makes product intuitive and understandable. It reduces customer confusion when completing goals. 
+ 
+Aesthetic – Well-crafted product is essential to increase user's joy of use. Good looking products and user interfaces are perceived as more valuable and easier to use than the ugly ones.
+ 
+Straightforward – Self-explanatory product can help user learn to use our product better.
+ 
+The combination of all these three important traits can make sure the product delivered meet our product standard and customer satisfaction.
 
 
-
-}
-```
-
-here is some js:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Simple Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-    async defer></script>
-  </body>
-</html>
-```
-
-
-this is the english version...
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-| sample | table |
-|----|-----|
-| row 1 | row 1 |
-| row 2 | row 2|
