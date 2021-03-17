@@ -30,4 +30,17 @@ Having this style guide has the following benefits:
 -	For user assistance development managers, it clarifies documentation relevant parts of the UI concept;
 
 ## Stencil
+### Intro
+Design stencils are ready-to-use, high-fidelity drafts of BAF UI components. You can use them to visualize SME products and to get a realistic impression of your final design.
+
+### Content
+The BAF UI design stencils include:
+•	Patterns for foundation topics, such as shadow levels, grid, colors, and more
+•	Page types (floorplans)
+•	Controls (Still reusing Fiori controls, meanwhile adding new ones)
+•	Helper tools, such as rem squares or px spacings to build your app according to the current specifications and implementations. We’ve also included interaction tools, such as like cursors and touch visualizations.
+
+### Resources for download (Sketch for Mac, Axure for Windows)![image](https://user-images.githubusercontent.com/79896473/111405915-457b5500-870c-11eb-8ccd-16c607c22fa0.png)
+
+
 
