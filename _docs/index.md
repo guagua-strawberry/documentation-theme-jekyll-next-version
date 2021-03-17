@@ -2,6 +2,27 @@
 title: BAF Styleguide foundation
 permalink: index.html
 sidebar: generic
+gallery1:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "placeholder image 3"
+    
+gallery2:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "placeholder image 3"
 
 ---
 
@@ -33,6 +54,8 @@ Having this style guide has the following benefits:
 ### Intro
 Design stencils are ready-to-use, high-fidelity drafts of BAF UI components. You can use them to visualize SME products and to get a realistic impression of your final design.
 
+{% include gallery1 caption="Stencil" %}
+
 ### Content
 The BAF UI design stencils include:
 •	Patterns for foundation topics, such as shadow levels, grid, colors, and more
@@ -40,7 +63,9 @@ The BAF UI design stencils include:
 •	Controls (Still reusing Fiori controls, meanwhile adding new ones)
 •	Helper tools, such as rem squares or px spacings to build your app according to the current specifications and implementations. We’ve also included interaction tools, such as like cursors and touch visualizations.
 
-### Resources for download (Sketch for Mac, Axure for Windows)![image](https://user-images.githubusercontent.com/79896473/111405915-457b5500-870c-11eb-8ccd-16c607c22fa0.png)
+### Resources for download (Sketch for Mac, Axure for Windows)
 
+
+{% include gallery2 caption="download" %}
 
 
